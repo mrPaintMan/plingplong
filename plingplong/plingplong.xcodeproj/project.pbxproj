@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34CF4862990459000380510 /* plingplongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34CF4852990459000380510 /* plingplongApp.swift */; };
+		C34CF48A2990459400380510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34CF4892990459400380510 /* Assets.xcassets */; };
+		C34CF48D2990459400380510 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34CF48C2990459400380510 /* Preview Assets.xcassets */; };
+		C34CF48F2990459400380510 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34CF48E2990459400380510 /* Persistence.swift */; };
+		C34CF4922990459400380510 /* plingplong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C34CF4902990459400380510 /* plingplong.xcdatamodeld */; };
+		C34CF49D2990459500380510 /* plingplongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34CF49C2990459500380510 /* plingplongTests.swift */; };
+		C34CF4A72990459500380510 /* plingplongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34CF4A62990459500380510 /* plingplongUITests.swift */; };
+		C34CF4A92990459500380510 /* plingplongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34CF4A82990459500380510 /* plingplongUITestsLaunchTests.swift */; };
+		C34CF4B529904DD100380510 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34CF4872990459000380510 /* ContentView.swift */; };
+		C3B0D1F92990507A003CE69A /* FilipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0D1F82990507A003CE69A /* FilipsView.swift */; };
+		C3B0D1FB29905093003CE69A /* MariasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0D1FA29905093003CE69A /* MariasView.swift */; };
+		C3B0D1FE29915A01003CE69A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C3B0D1FD29915A01003CE69A /* FirebaseAnalytics */; };
+		C3B0D20029915A01003CE69A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C3B0D1FF29915A01003CE69A /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C34CF4992990459400380510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34CF47A2990459000380510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34CF4812990459000380510;
+			remoteInfo = plingplong;
+		};
+		C34CF4A32990459500380510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34CF47A2990459000380510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34CF4812990459000380510;
+			remoteInfo = plingplong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C34CF4822990459000380510 /* plingplong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plingplong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34CF4852990459000380510 /* plingplongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plingplongApp.swift; sourceTree = "<group>"; };
+		C34CF4872990459000380510 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C34CF4892990459400380510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C34CF48C2990459400380510 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C34CF48E2990459400380510 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C34CF4912990459400380510 /* plingplong.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = plingplong.xcdatamodel; sourceTree = "<group>"; };
+		C34CF4932990459400380510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34CF4982990459400380510 /* plingplongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plingplongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34CF49C2990459500380510 /* plingplongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plingplongTests.swift; sourceTree = "<group>"; };
+		C34CF4A22990459500380510 /* plingplongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plingplongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34CF4A62990459500380510 /* plingplongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plingplongUITests.swift; sourceTree = "<group>"; };
+		C34CF4A82990459500380510 /* plingplongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plingplongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3B0D1F82990507A003CE69A /* FilipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilipsView.swift; sourceTree = "<group>"; };
+		C3B0D1FA29905093003CE69A /* MariasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariasView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34CF47F2990459000380510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B0D20029915A01003CE69A /* FirebaseMessaging in Frameworks */,
+				C3B0D1FE29915A01003CE69A /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34CF4952990459400380510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34CF49F2990459500380510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34CF4792990459000380510 = {
+			isa = PBXGroup;
+			children = (
+				C34CF4842990459000380510 /* plingplong */,
+				C34CF49B2990459400380510 /* plingplongTests */,
+				C34CF4A52990459500380510 /* plingplongUITests */,
+				C34CF4832990459000380510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C34CF4832990459000380510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34CF4822990459000380510 /* plingplong.app */,
+				C34CF4982990459400380510 /* plingplongTests.xctest */,
+				C34CF4A22990459500380510 /* plingplongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34CF4842990459000380510 /* plingplong */ = {
+			isa = PBXGroup;
+			children = (
+				C34CF4852990459000380510 /* plingplongApp.swift */,
+				C34CF4872990459000380510 /* ContentView.swift */,
+				C34CF4892990459400380510 /* Assets.xcassets */,
+				C34CF48E2990459400380510 /* Persistence.swift */,
+				C34CF4932990459400380510 /* Info.plist */,
+				C34CF4902990459400380510 /* plingplong.xcdatamodeld */,
+				C34CF48B2990459400380510 /* Preview Content */,
+				C3B0D1F82990507A003CE69A /* FilipsView.swift */,
+				C3B0D1FA29905093003CE69A /* MariasView.swift */,
+			);
+			path = plingplong;
+			sourceTree = "<group>";
+		};
+		C34CF48B2990459400380510 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C34CF48C2990459400380510 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C34CF49B2990459400380510 /* plingplongTests */ = {
+			isa = PBXGroup;
+			children = (
+				C34CF49C2990459500380510 /* plingplongTests.swift */,
+			);
+			path = plingplongTests;
+			sourceTree = "<group>";
+		};
+		C34CF4A52990459500380510 /* plingplongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C34CF4A62990459500380510 /* plingplongUITests.swift */,
+				C34CF4A82990459500380510 /* plingplongUITestsLaunchTests.swift */,
+			);
+			path = plingplongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34CF4812990459000380510 /* plingplong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34CF4AC2990459500380510 /* Build configuration list for PBXNativeTarget "plingplong" */;
+			buildPhases = (
+				C34CF47E2990459000380510 /* Sources */,
+				C34CF47F2990459000380510 /* Frameworks */,
+				C34CF4802990459000380510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plingplong;
+			packageProductDependencies = (
+				C3B0D1FD29915A01003CE69A /* FirebaseAnalytics */,
+				C3B0D1FF29915A01003CE69A /* FirebaseMessaging */,
+			);
+			productName = plingplong;
+			productReference = C34CF4822990459000380510 /* plingplong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C34CF4972990459400380510 /* plingplongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34CF4AF2990459500380510 /* Build configuration list for PBXNativeTarget "plingplongTests" */;
+			buildPhases = (
+				C34CF4942990459400380510 /* Sources */,
+				C34CF4952990459400380510 /* Frameworks */,
+				C34CF4962990459400380510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34CF49A2990459400380510 /* PBXTargetDependency */,
+			);
+			name = plingplongTests;
+			productName = plingplongTests;
+			productReference = C34CF4982990459400380510 /* plingplongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C34CF4A12990459500380510 /* plingplongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34CF4B22990459500380510 /* Build configuration list for PBXNativeTarget "plingplongUITests" */;
+			buildPhases = (
+				C34CF49E2990459500380510 /* Sources */,
+				C34CF49F2990459500380510 /* Frameworks */,
+				C34CF4A02990459500380510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34CF4A42990459500380510 /* PBXTargetDependency */,
+			);
+			name = plingplongUITests;
+			productName = plingplongUITests;
+			productReference = C34CF4A22990459500380510 /* plingplongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34CF47A2990459000380510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C34CF4812990459000380510 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C34CF4972990459400380510 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C34CF4812990459000380510;
+					};
+					C34CF4A12990459500380510 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C34CF4812990459000380510;
+					};
+				};
+			};
+			buildConfigurationList = C34CF47D2990459000380510 /* Build configuration list for PBXProject "plingplong" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C34CF4792990459000380510;
+			packageReferences = (
+				C3B0D1FC29915A01003CE69A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C34CF4832990459000380510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34CF4812990459000380510 /* plingplong */,
+				C34CF4972990459400380510 /* plingplongTests */,
+				C34CF4A12990459500380510 /* plingplongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34CF4802990459000380510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34CF48D2990459400380510 /* Preview Assets.xcassets in Resources */,
+				C34CF48A2990459400380510 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34CF4962990459400380510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34CF4A02990459500380510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34CF47E2990459000380510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34CF48F2990459400380510 /* Persistence.swift in Sources */,
+				C34CF4922990459400380510 /* plingplong.xcdatamodeld in Sources */,
+				C34CF4B529904DD100380510 /* ContentView.swift in Sources */,
+				C3B0D1F92990507A003CE69A /* FilipsView.swift in Sources */,
+				C34CF4862990459000380510 /* plingplongApp.swift in Sources */,
+				C3B0D1FB29905093003CE69A /* MariasView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34CF4942990459400380510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34CF49D2990459500380510 /* plingplongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34CF49E2990459500380510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34CF4A92990459500380510 /* plingplongUITestsLaunchTests.swift in Sources */,
+				C34CF4A72990459500380510 /* plingplongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C34CF49A2990459400380510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34CF4812990459000380510 /* plingplong */;
+			targetProxy = C34CF4992990459400380510 /* PBXContainerItemProxy */;
+		};
+		C34CF4A42990459500380510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34CF4812990459000380510 /* plingplong */;
+			targetProxy = C34CF4A32990459500380510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C34CF4AA2990459500380510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C34CF4AB2990459500380510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34CF4AD2990459500380510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"plingplong/Preview Content\"";
+				DEVELOPMENT_TEAM = 6385942QWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpalmqvist.plingplong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C34CF4AE2990459500380510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"plingplong/Preview Content\"";
+				DEVELOPMENT_TEAM = 6385942QWA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpalmqvist.plingplong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C34CF4B02990459500380510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6385942QWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpalmqvist.plingplongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plingplong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/plingplong";
+			};
+			name = Debug;
+		};
+		C34CF4B12990459500380510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6385942QWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpalmqvist.plingplongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plingplong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/plingplong";
+			};
+			name = Release;
+		};
+		C34CF4B32990459500380510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6385942QWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpalmqvist.plingplongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plingplong;
+			};
+			name = Debug;
+		};
+		C34CF4B42990459500380510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6385942QWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpalmqvist.plingplongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plingplong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34CF47D2990459000380510 /* Build configuration list for PBXProject "plingplong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34CF4AA2990459500380510 /* Debug */,
+				C34CF4AB2990459500380510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34CF4AC2990459500380510 /* Build configuration list for PBXNativeTarget "plingplong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34CF4AD2990459500380510 /* Debug */,
+				C34CF4AE2990459500380510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34CF4AF2990459500380510 /* Build configuration list for PBXNativeTarget "plingplongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34CF4B02990459500380510 /* Debug */,
+				C34CF4B12990459500380510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34CF4B22990459500380510 /* Build configuration list for PBXNativeTarget "plingplongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34CF4B32990459500380510 /* Debug */,
+				C34CF4B42990459500380510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3B0D1FC29915A01003CE69A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3B0D1FD29915A01003CE69A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3B0D1FC29915A01003CE69A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C3B0D1FF29915A01003CE69A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3B0D1FC29915A01003CE69A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C34CF4902990459400380510 /* plingplong.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C34CF4912990459400380510 /* plingplong.xcdatamodel */,
+			);
+			currentVersion = C34CF4912990459400380510 /* plingplong.xcdatamodel */;
+			path = plingplong.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C34CF47A2990459000380510 /* Project object */;
+}
