@@ -92,3 +92,9 @@ iOSInjectionProject/
 # My stuff
 .DS_STore
 */.DS_Store
+
+FCFuncs/node_modules/
+*/.vscode/
+*/*/package-lock.json
+FCFuncs/package-lock.json
+plingplong/plingplong/GoogleService-Info.plist
