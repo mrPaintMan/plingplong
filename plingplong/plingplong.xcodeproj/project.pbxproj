@@ -20,6 +20,7 @@
 		C3B0D1FB29905093003CE69A /* MariasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0D1FA29905093003CE69A /* MariasView.swift */; };
 		C3B0D1FE29915A01003CE69A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C3B0D1FD29915A01003CE69A /* FirebaseAnalytics */; };
 		C3B0D20029915A01003CE69A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C3B0D1FF29915A01003CE69A /* FirebaseMessaging */; };
+		C3FDE96A2992ADD8001ADBAF /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = C3FDE9692992ADD8001ADBAF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C34CF4A82990459500380510 /* plingplongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plingplongUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C3B0D1F82990507A003CE69A /* FilipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilipsView.swift; sourceTree = "<group>"; };
 		C3B0D1FA29905093003CE69A /* MariasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariasView.swift; sourceTree = "<group>"; };
+		C3FDE9682992A96F001ADBAF /* plingplong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = plingplong.entitlements; sourceTree = "<group>"; };
+		C3FDE9692992ADD8001ADBAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +110,12 @@
 		C34CF4842990459000380510 /* plingplong */ = {
 			isa = PBXGroup;
 			children = (
+				C3FDE9682992A96F001ADBAF /* plingplong.entitlements */,
 				C34CF4852990459000380510 /* plingplongApp.swift */,
 				C34CF4872990459000380510 /* ContentView.swift */,
 				C34CF4892990459400380510 /* Assets.xcassets */,
 				C34CF48E2990459400380510 /* Persistence.swift */,
+				C3FDE9692992ADD8001ADBAF /* GoogleService-Info.plist */,
 				C34CF4932990459400380510 /* Info.plist */,
 				C34CF4902990459400380510 /* plingplong.xcdatamodeld */,
 				C34CF48B2990459400380510 /* Preview Content */,
@@ -282,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3FDE96A2992ADD8001ADBAF /* GoogleService-Info.plist in Sources */,
 				C34CF48F2990459400380510 /* Persistence.swift in Sources */,
 				C34CF4922990459400380510 /* plingplong.xcdatamodeld in Sources */,
 				C34CF4B529904DD100380510 /* ContentView.swift in Sources */,
@@ -443,17 +449,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = plingplong/plingplong.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"plingplong/Preview Content\"";
 				DEVELOPMENT_TEAM = 6385942QWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = plingplong/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,17 +481,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = plingplong/plingplong.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"plingplong/Preview Content\"";
 				DEVELOPMENT_TEAM = 6385942QWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = plingplong/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
